@@ -41,11 +41,11 @@ namespace GradeBook.GradeBooks
             }
             else if (placement < downOneGrade)
             {
-                return 'A';
+                return 'F';
             }
             else if (placement < downOneGrade*2)
             {
-                return 'B';
+                return 'D';
             }
             else if (placement < downOneGrade * 3)
             {
@@ -53,11 +53,11 @@ namespace GradeBook.GradeBooks
             }
             else if (placement < downOneGrade * 4)
             {
-                return 'D';
+                return 'B';
             }
             else
             {
-                return 'F';
+                return 'A';
             }
         }
     }
